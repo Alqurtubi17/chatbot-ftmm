@@ -1,26 +1,30 @@
 from flask import Flask, render_template, request, jsonify
 from fix import get_response
-import psycopg2
+import psycopg2, os
+from dotenv import load_dotenv
 from psycopg2 import Error
 from datetime import datetime
 
 app = Flask(__name__)
 
-# Konfigurasi koneksi ke PostgreSQL
-app.config['POSTGRESQL_DATABASE_USER'] = 'chatbot_ftmm_user'
-app.config['POSTGRESQL_DATABASE_PASSWORD'] = 'Ifj4AKodZrrBNeoH7fUizTwGpNtMr51a'
-app.config['POSTGRESQL_DATABASE_DB'] = 'chatbot_ftmm'
-app.config['POSTGRESQL_DATABASE_HOST'] = 'dpg-cor0emq0si5c7399uel0-a.oregon-postgres.render.com'
+# Load environment variables from .env file
+load_dotenv()
+
+# Access PostgreSQL configuration variables
+postgresql_user = os.getenv("POSTGRESQL_DATABASE_USER")
+postgresql_password = os.getenv("POSTGRESQL_DATABASE_PASSWORD")
+postgresql_db = os.getenv("POSTGRESQL_DATABASE_DB")
+postgresql_host = os.getenv("POSTGRESQL_DATABASE_HOST")
 
 # Fungsi untuk membuat koneksi ke PostgreSQL
 def create_connection():
     connection = None
     try:
         connection = psycopg2.connect(
-            user=app.config['POSTGRESQL_DATABASE_USER'],
-            password=app.config['POSTGRESQL_DATABASE_PASSWORD'],
-            database=app.config['POSTGRESQL_DATABASE_DB'],
-            host=app.config['POSTGRESQL_DATABASE_HOST']
+            user=postgresql_user,
+            password=postgresql_password,
+            database=postgresql_db,
+            host=postgresql_host
         )
         print("Connection to PostgreSQL successful")
     except (Exception, Error) as error:
@@ -76,4 +80,4 @@ def feedback():
     return jsonify({"success": True, "message": "Feedback received"})
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, port=9000)
