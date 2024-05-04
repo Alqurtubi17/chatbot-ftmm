@@ -1,0 +1,792 @@
+{
+    "intents": [
+        {
+            "tag": "Akreditasi FTMM",
+            "patterns": [
+                "Apa akreditasi FTMM?",
+                "Apa status akreditasi yang diperoleh FTMM?",
+                "Bagaimana hasil akreditasi terbaru FTMM?",
+                "bisa nggak kasih tahu status akreditasi FTMM?",
+                "Apa sih akreditasi jurusan FTMM?",
+                "FTMM sudah terakreditasi belum?",
+                "Prodi FTMM sudah terakreditasi belum ya?",
+                "Prodi FTMM itu bagus atau nggak?",
+                "Jurusan FTMM dapat predikat apa?",
+                "FTMM itu sudah dinilai belum?",
+                "Apa grade FTMM?",
+                "Apakah FTMM sudah terekomendasi?",
+                "Apakah FTMM sudah dinilai?",
+                "Jurusan FTMM itu oke nggak sih?",
+                "Apakah FTMM sudah memenuhi standar?",
+                "Akreditasi itu penting nggak sih?",
+                "FTMM itu sudah oke belum dari sisi akreditasi?",
+                "Apakah FTMM sudah dijamin bagus?",
+                "Apakah FTMM sudah diakui kualitasnya?",
+                "Bagaimana cap FTMM?",
+                "Apa akreditasi program studi di FTMM?",
+                "Apa akreditasi jurusan di FTMM?"
+            ],
+            "responses": [
+                "Sesuai hasil akreditasi pendidikan prodi, Badan Akreditasi Nasional Perguruan Tinggi (BAN-PT) 2022 menyatakan status Baik. "
+            ]
+        },
+        {
+            "tag": "BEM FTMM",
+            "patterns": [
+                "Kapan BEM Fakultas Teknologi Maju dan Multidisiplin pertama kali dibentuk?",
+                "BEM FTMM adalah",
+                "Jelaskan tentang BEM FTMM!",
+                "Apa itu BEM FTMM?",
+                "Bagaimana BEM FTMM terbentuk?",
+                "Bagaimana Sejarah BEM FTMM?",
+                "Apa itu Badan Eksekutif Mahasiswa?",
+                "Bagaimana sejarah badan eksekutif mahasiswa FTMM?",
+                "Siapa nama presiden BEM FTMM?",
+                "Bagaimana cara bergabung BEM FTMM?",
+                "Gimana cara join BEM FTMM?",
+                "Kapan pelantikan pengurus inti BEM Fakultas Teknologi Maju dan Multidisiplin dilaksanakan?",
+                "Bagaimana proses pemilihan ketua BEM di FTMM?",
+                "Apa saja kegiatan atau program yang telah dilaksanakan oleh BEM FTMM sejak didirikan?",
+                "Apa fungsi BEM FTMM?",
+                "Kenapa ada BEM FTMM",
+                "FTMM punya BEM ga?",
+                "FTMM itu udah punya BEM belum?",
+                "Dimana bisa dapat informasi BEM FTMM?",
+                "BEM FTMM punya sosial media ga?"
+            ],
+            "responses": [
+                "Dalam sejarahnya, Fakultas Teknologi Maju dan Multidisiplin membentuk BEM Fakultas Teknologi Maju dan Multidisiplin dengan kepengurusan yang pertama pada tahun 2022, dan menggelar pelantikan pengurus inti BEM bersamaan dengan pelantikan pengurus Badan Legislatif Mahasiswa di pertengahan Januari. Ketua BEM terpilih, yakni Aqil Naufal Rizqullah yang merupakan mahasiswa Rekayasa Nanoteknologi, mengusung nama kabinet periode pertama ini dengan nama “Kabinet Maju” yang memiliki visi untuk dapat menjadi wadah dan pusat pergerakan bagi seluruh mahasiswa FTMM dalam mengembangkan potensi terbaiknya, baik didalam ataupun luar negeri, serta membangun kerjasama kolaboratif dengan seluruh elemen FTMM, demi membawa FTMM yang mampu bergerak maju, bersinergi, dan bersaing secara sehat dalam banyak bidang. Saat ini tongkat estafet BEM FTMM dilanjutkan oleh M. Farras Reswara yang merupakan mahasiswa Teknologi Sains Data, mengusung nama kabinet periode kedua dengan nama \"Kabinet Pandawa\" yang merupakan kependekan dari \"Pandu, Darma, Wibawa\". Akun resmi BEM FTMM: https://www.instagram.com/bemftmmunair/"
+            ]
+        },
+        {
+            "tag": "BLM FTMM",
+            "patterns": [
+                "Kapan BLM Fakultas Teknologi Maju dan Multidisiplin pertama kali dibentuk?",
+                "BLM FTMM adalah",
+                "Jelaskan tentang BLM FTMM!",
+                "Apa itu BLM FTMM?",
+                "Bagaimana BLM FTMM terbentuk?",
+                "Bagaimana Sejarah BLM FTMM?",
+                "Apa itu Badan Eksekutif Mahasiswa?",
+                "Bagaimana sejarah badan eksekutif mahasiswa FTMM?",
+                "Siapa nama presiden BLM FTMM?",
+                "Bagaimana cara bergabung BLM FTMM?",
+                "Gimana cara join BLM FTMM?",
+                "Kapan pelantikan pengurus inti BLM Fakultas Teknologi Maju dan Multidisiplin dilaksanakan?",
+                "Bagaimana proses pemilihan ketua BLM di FTMM?",
+                "Apa saja kegiatan atau program yang telah dilaksanakan oleh BLM FTMM sejak didirikan?",
+                "Apa fungsi BLM FTMM?",
+                "Kenapa ada BLM FTMM",
+                "FTMM punya BLM ga?",
+                "FTMM itu udah punya BLM belum?",
+                "Dimana bisa dapat informasi BLM FTMM?",
+                "BLM FTMM punya sosial media ga?"
+            ],
+            "responses": [
+                "Badan Legislatif Mahasiswa (BLM) merupakan lembaga legislatif di tingkat mahasiswa. BLM mempunyai tiga fungsi, yaitu aspirasi, legislasi, dan pengawasan. Sebagai badan legislatif, keberadaan BLM sangat krusial guna menyeimbangkan fungsi legislatif dan fungsi eksekutif yang dilakukan oleh Badan Eksekutif Mahasiswa (BEM). BLM menyelenggarakan beberapa kegiatan penting seperti Kongres Mahasiswa (Kosma) serta Monitoring dan Evaluasi (Monev). /n Akun resmi BLM FTMM: https://www.instagram.com/blmftmmunair/"
+            ]
+        },
+        {
+            "tag": "Bendera FTMM",
+            "patterns": [
+                "Apa warna bendera FTMM?",
+                "Apa makna warna pada bendera FTMM?",
+                "Bendera FTMM berwarna apa?",
+                "Bagaimana bentuk bendera FTMM?",
+                "Apakah FTMM memiliki bendera?",
+                "Apa saja warna yang digunakan di bendera FTMM dan apa maknanya?",
+                "Berapa banyak warna yang terdapat pada bendera FTMM dan apa simbolisasi dari masing-masing warna tersebut?",
+                "Dapatkah Anda jelaskan simbolisme di balik warna-warna pada bendera FTMM?",
+                "Apa saja elemen desain pada bendera FTMM dan bagaimana mereka mewakili visi FTMM?",
+                "Mengapa bendera FTMM menggunakan warna biru prusia, silver, dan pompadour dalam desainnya?",
+                "Bagaimana kombinasi warna pada bendera FTMM melambangkan kolaborasi multidisiplin ilmu?",
+                "Sebutkan dan jelaskan filosofi di balik warna-warna yang dipilih untuk bendera FTMM",
+                "Warna-warna apa aja sih yang ada di bendera FTMM, dan kenapa pakai itu?",
+                "Ada berapa warna di bendera FTMM dan apa aja maknanya?",
+                "Kenapa ya bendera FTMM pakai warna biru prusia? Ada makna khusus gak?",
+                "Gimana sih bentuk dan desain bendera FTMM itu? Ada cerita khusus di baliknya gak?",
+                "Apa aja sih simbol-simbol yang ada di bendera FTMM dan apa artinya buat mereka?",
+                "Bisa gak sih ceritain lebih lanjut tentang gimana warna-warna di bendera FTMM itu mencerminkan kolaborasi antar ilmu?",
+                "tahu gak sih kenapa bendera FTMM itu warnanya biru, silver, sama pompadour?",
+                "Bisa gak kamu kasih tahu, kenapa bendera FTMM punya tiga warna itu? Ada filosofi keren di baliknya gak?"
+            ],
+            "responses": [
+                "Bendera FTMM memiliki warna biru prusia (prussian blue) melambangkan FTMM sebagai pilar teknologi di Universitas Airlangga, warna perak (silver) memiliki makna kemajuan dan harapan sesuai dengan filosofi didirikannya FTMM sebagai bentuk kontribusi untuk Indonesia yang lebih maju melalui penguasaan teknologi, warna  pompadour   melambangkan   harmonisasi   dan   kolaborasi   multidisiplin   ilmu sebagaimana visi pendirian FTMM yang turut berperan aktif dalam pengembangan, penerapan dan kolaborasi IPTEK yang maju. Tiga buah warna yang berjajar melambangkan FTMM yang berangkat dari 3 pilar yang telah ada (health science, life science dan social science), teknologi hadir sebagai katalis kolaborasi antar pilar sehingga membawa keseimbangan bagi Universitas Airlangga sebagai institusi yang komprehensif."
+            ]
+        },
+        {
+            "tag": "FTMMQA",
+            "patterns": [
+                "Siapa yang membuat kamu?",
+                "Siapa yang membuat FTMMQA?",
+                "Siapa yang menciptakan kamu?",
+                "Kamu siapa yang buat?",
+                "Kamu siapa?",
+                "Apa fungsi kamu?",
+                "Kenapa kamu dibuat?",
+                "Apa tujuan kamu dibuat?",
+                "Siapa namamu?",
+                "Kamu punya nama nggak?",
+                "Untuk siapa kamu dibuat?",
+                "Siapa sih yang bikin kamu?",
+                "Siapa yang punya ide bikin FTMMQA?",
+                "Eh, kamu dibikin sama siapa sih?",
+                "Kamu itu bisa ngapain aja sih?",
+                "Ada alasan khusus nggak sih kamu dibikin?",
+                "Tujuan utama kamu dibuat itu apa sih?",
+                "Nama kamu apa?",
+                "Kamu punya nama khusus nggak sih?",
+                "Kamu itu sebenernya dibuat siapa sih?",
+                "Bagaimana cara membuatmu?"
+            ],
+            "responses": [
+                "Halo! Aku FTMMQA! Aku merupakan chatbot yang dapat membantumu memberikan informasi dasar terkait FTMM. Aku dikembangkan oleh mahasiswa program studi Teknologi Sains Data, yakni Giovanny Alberta Tambahjong dengan menggunakan model deep learning untuk mendukung pemenuhan syarat dia meraih gelar sarjana."
+            ]
+        },
+        {
+            "tag": "Gelar Sarjana",
+            "patterns": [
+                "Lulusan FTMM mendapatkan gelar apa?",
+                "Kalau mahasiswa FTMM lulus nanti gelarnya apa?",
+                "Lulusan FTMM apakah sarjana teknik?",
+                "Gelar apa untuk lulusan teknologi sains data?",
+                "Gelar apa untuk lulusan rekayasa nanoteknologi?",
+                "Gelar apa untuk lulusan teknik industri?",
+                "Gelar apa untuk lulusan teknik elektro?",
+                "Gelar apa untuk lulusan teknik robotika dan kecerdasan buatan?",
+                "Apa gelar lulusan TSD?",
+                "Apa gelar lulusan TE?",
+                "Apa gelar lulusan TI?",
+                "Apa gelar lulusan RN?",
+                "Apa gelar lulusan TRKB?",
+                "Apakah gelar TSD?",
+                "Apakah gelar TI?",
+                "Apakah gelar TE?",
+                "Apakah gelar RN?",
+                "Apakah Gelar TRKB?",
+                "Mahasiswa FTMM kalau lulus dapet gelar apa?",
+                "Kalau mahasiswa FTMM lulus bakal dapet gelar apa?"
+            ],
+            "responses": [
+                "Fakultas Teknologi Maju dan Multidisipin, Universitas Airlangga. menetapkan bahwa mahasiswa dari ke-5 program studinya pada akhir masa studinya memperoleh gelar Sarjana Teknik (S.T.)."
+            ]
+        },
+        {
+            "tag": "Informasi Kontak",
+            "patterns": [
+                "Bagaimana cara terhubung dengan FTMM?",
+                "Apa media sosial FTMM?",
+                "Ada akun media sosial yang bisa difollow nggak?",
+                "FTMM update dimana aja sih?",
+                "Aku pengen tau lebih banyak tentang kegiatan dan berita FTMM. Ada YouTube channel atau WhatsApp yang bisa aku kontak?",
+                "Kalau aku punya pertanyaan dan butuh jawaban cepat dari FTMM, saya harus email ke mana ya?",
+                "Gimana sih caranya aku bisa dapet update langsung dari FTMM? Ada IG atau Twitter?",
+                "Hai, boleh minta kontak WhatsApp FTMM untuk tanya-tanya lebih lanjut?",
+                "Aku butuh informasi terkini dari FTMM. Bisa kasih tahu saya akun YouTube FTMM?",
+                "Ada email resmi nggak ya untuk aku bisa menghubungi FTMM?",
+                "Saya ingin melihat kegiatan FTMM. Mereka punya akun Instagram aktif nggak?",
+                "Apakah FTMM punya saluran informasi di Twitter yang bisa saya ikuti?",
+                "Bisa nggak sih kamu kasih tau kontak person FTMM yang bisa dihubungi via WhatsApp?",
+                "Aku tertarik dengan FTMM, ada channel YouTube khusus yang bisa aku subscribe nggak?",
+                "aku butuh update terbaru dari FTMM, bisa follow di mana aja ya?",
+                "FTMM punya halaman Facebook resmi nggak ya untuk info dan pengumuman?",
+                "Informasi dan pengumuman FTMM di post dimana ya?",
+                "FTMM ada di platform media sosial apa saja sih yang bisa aku cek?",
+                "Media apa saja yang dimiliki FTMM?",
+                "Aku mau follow ig kamu dong"
+            ],
+            "responses": [
+                "Media sosial Fakultas Teknologi Maju dan Multidisiplin, Instagram = @ftmmunair, Twitter = @FTMMUNAIR, Youtube = @ftmmunair, WhatsApp = +62 881-0360-00830, Email = info@ftmm.unair.ac.id, Website = ftmm.unair.ac.id"
+            ]
+        },
+        {
+            "tag": "Keketatan",
+            "patterns": [
+                "Adakah info keketatan seleksi SNMPTN/SBMPTN?",
+                "Berapa peluang masuk FTMM?",
+                "Berapa minimal nilai UTBK masuk FTMM?",
+                "Berapa minimal nilai rapor masuk FTMM?",
+                "Berapa keketatan masuk FTMM?",
+                "Berapa nilai yang harus dipersiapkan untuk masuk FTMM?",
+                "Dimana saya bisa mendapatkan informasi keketatan FTMM?",
+                "Bagaimana tingkat persaingan di FTMM?",
+                "Dimana saya bisa melihat seberapa ketat jalur penerimaan di FTMM?",
+                "Bisakah saya tahu keketatan jalur masuk FTMM?",
+                "Seberapa sulit masuk FTMM?",
+                "Seberapa sulit bisa menjadi mahasiswa FTMM?",
+                "Saya ingin melihat statistik keketatan jalur masuk UNAIR, khususnya untuk FTMM. Di mana saya bisa melihatnya?",
+                "Apa bisa kasih tahu saya, di mana saya bisa cek keketatan jalur masuk FTMM UNAIR?",
+                "Bagaimana persaingan masuk FTMM?",
+                "Bagaimana persaingan menjadi mahasiswa FTMM?",
+                "Berapa peluang saya masuk FTMM?",
+                "Dimana saya bisa lihat statistik persaingan untuk diterima di FTMM UNAIR?",
+                "Aku butuh info keketatan masuk UNAIR, khususnya FTMM, ada rekomendasi situs?",
+                "Untuk melihat seberapa kompetitif jalur masuk ke FTMM, saya harus buka website apa?"
+            ],
+            "responses": [
+                "Informasi keketatan jalur masuk FTMM/UNAIR dapat dilihat ke website resmi LTMPT dan PPMB UNAIR"
+            ]
+        },
+        {
+            "tag": "Kunjungan",
+            "patterns": [
+                "Sekolah/kampus kami ingin melakukan kunjungan ke FTMM, bagaimana caranya?",
+                "Bagaimana mekanisme pengajuan kunjungan ke FTMM?",
+                "Apa yang harus saya lakukan apabila ingin berkunjung ke FTMM?",
+                "Bagaimana cara berkunjung ke FTMM?",
+                "Kalau mau kunjungan ke FTMM harus bagaimana?",
+                "Bagaimana prosedur berkunjung ke FTMM?",
+                "Jelaskan prosedur kunjungan FTMM!",
+                "Bagaimana cara saya mengatur kunjungan ke FTMM?",
+                "Saya ingin melakukan kunjungan ke fakultas, ke siapa saya harus mengirim permintaan resmi?",
+                "Bisa tolong beritahu saya prosedur untuk mengajukan kunjungan ke FTMM?",
+                "Apakah ada alamat email tertentu untuk mengirim surat permohonan kunjungan ke FTMM UNAIR?",
+                "Aku mau berkunjung ke FTMM, apa langkah yang harus aku lakukan?",
+                "Untuk merencanakan kunjungan ke FTMM, apakah saya perlu mengirimkan surat ke dekan?",
+                "Siapa yang harus saya hubungi jika saya tertarik mengunjungi FTMM?",
+                "Saya berencana berkunjung ke kampus dan ingin bertemu dengan dekan FTMM. Bisa kasih tahu saya prosedurnya?",
+                "Apa yang harus saya lakukan jika saya ingin mengatur pertemuan atau kunjungan ke FTMM di UNAIR?",
+                "Bisa nggak sih saya mengirim permintaan kunjungan ke dekan FTMM via email? Kalau bisa, ke alamat email apa?",
+                "Untuk melakukan kunjungan ke FTMM, adakah proses khusus yang perlu saya ikuti?",
+                "Saya ingin mengatur tur ke FTMM, apakah saya perlu menghubungi dekan terlebih dahulu?",
+                "Siapa yang harus dihubungi jika saya ingin melakukan kunjungan ke fakultas FTMM di UNAIR?"
+            ],
+            "responses": [
+                "Apabila ingin melakukan kunjungan dapat berkirim surat ke dekan di email ke dekan@ftmm.unair.ac.id dan di cc ke info@ftmm.unair.ac.id"
+            ]
+        },
+        {
+            "tag": "Logo FTMM",
+            "patterns": [
+                "Apa makna logo FTMM?",
+                "Logo FTMM berwarna apa?",
+                "Bagaimana logo FTMM?",
+                "Apa filosofi logo FTMM?",
+                "FTMM punya logo nggak?",
+                "Tau gak, arti dari huruf-huruf yang nyambung di logo FTMM itu apa?",
+                "Kenapa logo FTMM pakai warna biru dan kuning?",
+                "Gimana bentuk logo FTMM?",
+                "Apa arti logo FTMM?",
+                "Apa makna gradasi di logo FTMM?",
+                "Kenapa ada warna biru dan kuning di logo FTMM?",
+                "Apa makna desain logo FTMM?",
+                "Logo FTMM itu mencerminkan apa?",
+                "Bisa kasih penjelasan nggak tentang logo FTMM?",
+                "Tolong ceritain makna logo FTMM dong",
+                "Apa lambang FTMM?",
+                "Bagaimana bentuk lambang FTMM?",
+                "Apa arti lambang FTMM?",
+                "Bagaimana gambaran logo FTMM?",
+                "Apa maksud lambang FTMM?"
+            ],
+            "responses": [
+                "Logo FTMM memiliki bentuk huruf tanpa sudut melambangkan FTMM sebagai Fakultas yang dinamis dan mampu beradaptasi terhadap berbagai tantangan. Huruf yang saling bersambung melambangkan kontinuitas FTMM dalam mengembangkan IPTEK. Warna biru dan kuning merupakan warna dasar Universitas Airlangga tempat FTMM bernaung. Gradasi warna pada logo melambangkan FTMM yang kolaboratif dengan berbagai disiplin ilmu yang ada."
+            ]
+        },
+        {
+            "tag": "Lokasi FTMM",
+            "patterns": [
+                "Halo FTMM ada dimana?",
+                "FTMM di kampus mana?",
+                "Lokasi FTMM ada di mana?",
+                "Apa itu GKB di FTMM?",
+                "Apakah FTMM ada di Surabaya?",
+                "Dimana letak FTMM?",
+                "Di GKB FTMM ada apa saja?",
+                "Dimana alamat FTMM?",
+                "Apakah FTMM di Surabaya?",
+                "Alamat lengkap FTMM apa?",
+                "bisa bantu saya dengan lokasi spesifik FTMM di kampus?",
+                "FTMM itu terletak di bagian mana ya dari kampus UNAIR?",
+                "Dimana FTMM bisa ditemukan?",
+                "Saya mau ke FTMM, dimana lokasinya?",
+                "Ada mapsnya FTMM ga?",
+                "Bisa kasih tau alamat lengkap FTMM nggak?",
+                "Apa alamat lengkap FTMM?",
+                "Boleh minta alamat pasti FTMM?",
+                "FTMM itu di UNAIR sebelah mana ya?",
+                "FTMM itu di daerah mana sih di surabaya?",
+                "Boleh minta info lengkap alamat FTMM di UNAIR?"
+            ],
+            "responses": [
+                "Fakultas Teknologi Maju dan Multidisiplin berlokasi di Gedung Kuliah Bersama (GKB) UNAIR Kampus C. Lokasi : Gedung Kuliah Bersama, Jl. Dr. Ir. H. Soekarno, Mulyorejo, Kec. Mulyorejo, Surabaya, Jawa Timur 60115. Di gedung ini, FTMM menempati lantai Ground sebagai laboratorium pendidikan, Lantai 1 sebagai ruang administrasi akademik dan kemahasiswaan, ORMAWA, serta laboratorium pendidikan. Lantai 6 dan 7 sebagai ruang kelas, lantai 8 sebagai ruang dosen dan laboratorium komputer High Grade & Mid Grade. Serta lantai 10 sebagai ruang pimpinan FTMM, administrasi sarana prasarana, sdm dan keuangan, serta Research Centre Nanotechnology."
+            ]
+        },
+        {
+            "tag": "Pembuka",
+            "patterns": [
+                "selamat pagi",
+                "selamat pagi min",
+                "selamat siang",
+                "selamat siang min",
+                "selamat sore",
+                "selamat sore min",
+                "halo",
+                "hai",
+                "hay",
+                "pagi",
+                "siang",
+                "sore",
+                "malam",
+                "siapa kamu?",
+                "halo siapa kamu?",
+                "bagaimana kabarmu?",
+                "halo apa kabar?",
+                "assalamualaikum",
+                "saya mau tanya dong",
+                "apakah saya boleh bertanya?",
+                "perkenalkan nama saya ingin menanyakan sesuatu",
+                "hallo",
+                "oy",
+                "oits",
+                "yo",
+                "heh",
+                "punten",
+                "misi",
+                "permisi",
+                "sis",
+                "bro",
+                "hy"
+            ],
+            "responses": [
+                "Hai! Aku adalah FTMMQA yang bertugas untuk menjawab pertanyaanmu tentang Fakultas FTMM kami. Salam kenal ya! Kamu mau tanya apa?"
+            ]
+        },
+        {
+            "tag": "Pendaftaran",
+            "patterns": [
+                "Bagaimana mendaftar untuk menjadi mahasiswa FTMM?",
+                "Bagaimana cara menjadi mahasiswa FTMM?",
+                "Jalur pendaftaran FTMM apa saja?",
+                "Jalur apa saja untuk menjadi mahasiswa FTMM?",
+                "Saya mau bergabung dengan FTMM gimana caranya?",
+                "Dimana bisa daftar masuk FTMM?",
+                "Bagaimana saya bisa mendaftar di Universitas Airlangga, khususnya di FTMM?",
+                "Apa saja jalur pendaftaran yang tersedia untuk masuk ke Universitas Airlangga?",
+                "Bisa jelaskan cara mendaftar ke Universitas Airlangga untuk calon mahasiswa baru?",
+                "Apa jalur yang bisa saya gunakan untuk mendaftar di Universitas Airlangga?",
+                "Dapatkah Anda memberi tahu saya tentang pilihan jalur masuk ke Universitas Airlangga?",
+                "Apakah saya bisa nyogok untuk masuk FTMM?",
+                "Saya tertarik untuk studi di FTMM. Bisa jelaskan jalur pendaftarannya?",
+                "Untuk menjadi mahasiswa UNAIR, jalur apa saja yang bisa saya ikuti?",
+                "Aku mau daftar ke UNAIR. Jalur apa aja ya yang bisa dipilih?",
+                "Kalau ingin masuk UNAIR, saya harus daftar lewat mana aja?",
+                "Ada berapa cara sih untuk bisa daftar dan diterima di UNAIR?",
+                "Kapan pendaftaran masuk FTMM dimulai?",
+                "Gimana cara daftar kuliah di FTMM?",
+                "Apa ada jalur belakang untuk masuk FTMM?"
+            ],
+            "responses": [
+                "Untuk pendaftaran dapat melalui SNMPTN, SBMPTN dan Jalur Mandiri yang diadakan oleh pihak Universitas Airlangga"
+            ]
+        },
+        {
+            "tag": "Pengenalan FTMM",
+            "patterns": [
+                "pengertian FTMM itu apa?",
+                "Kamu tau nggak FTMM itu apa?",
+                "apa itu FTMM?",
+                "apa saja program studi di FTMM?",
+                "jelaskan apa itu FTMM",
+                "deskripsikan FTMM",
+                "berapa jumlah prodi di FTMM?",
+                "apa itu FTTM?",
+                "apa itu STMM?",
+                "apa yang kamu ketahui tentang FTMM?",
+                "jelasin FTMM itu apa?",
+                "FTMM itu apa?",
+                "Apa saja bidang studi yang ditawarkan oleh FTMM?",
+                "Berapa banyak jurusan yang tersedia di FTMM?",
+                "Bisa berikan ringkasan tentang misi dan visi FTMM?",
+                "Apa perbedaan antara FTMM dan STMM?",
+                "Apa saja keunggulan yang ditawarkan oleh FTMM bagi mahasiswanya?",
+                "Dapatkah Anda memberikan gambaran umum tentang FTMM?",
+                "Berapa banyak program studi yang ditawarkan oleh FTMM dan apa sajakah itu?",
+                "Apa saja pilihan jurusan yang dapat diambil di FTMM?",
+                "ada berapa prodi di FTMM?"
+            ],
+            "responses": [
+                "Fakultas Teknologi Maju dan Multidisiplin (FTMM), yang semula bernama Sekolah Teknologi Maju dan Multidisiplin, didirikan pada November 2019 dengan 5 program studi S1, antara lain: Teknik Robotika dan Kecerdasan Buatan, Teknologi Sains Data, Rekayasa Nanoteknologi, Teknik Industri, dan Teknik Elektro."
+            ]
+        },
+        {
+            "tag": "Penutupan",
+            "patterns": [
+                "terima kasih",
+                "thanks",
+                "thank you",
+                "makasih",
+                "terima kasih banyak",
+                "bye bye",
+                "bye",
+                "sangat membantu!",
+                "gracias",
+                "matur suwun",
+                "suwun",
+                "tks",
+                "trima kasih",
+                "trimakasih",
+                "hatur nuhun",
+                "trims",
+                "makaseh",
+                "mksh",
+                "dah",
+                "dadah",
+                "byee",
+                "good bye",
+                "selamat tinggal",
+                "sampai jumpa",
+                "bai",
+                "see you"
+            ],
+            "responses": [
+                "Terimakasih! Apabila ada pertanyaan silahkan kembali lagi! :)"
+            ]
+        },
+        {
+            "tag": "Pimpinan FTMM",
+            "patterns": [
+                "Siapa pimpinan FTMM?",
+                "Siapa dekan FTMM",
+                "Siapa wakil dekan FTMM?",
+                "Siapa wadek FTMM?",
+                "Apakah kamu tau siapa yang memimpin FTMM?",
+                "Siapa itu prof Dwi?",
+                "Siapa yang memegang posisi kepemimpinan di FTMM saat ini?",
+                "Siapakah yang saat ini menduduki jabatan dekan di FTMM?",
+                "Siapa yang bertanggung jawab atas kepemimpinan FTMM?",
+                "Apakah Anda tahu siapa yang menjabat sebagai dekan di FTMM?",
+                "Siapa yang saat ini memimpin dan mengelola FTMM?",
+                "Siapakah pemimpin tertinggi di FTMM saat ini?",
+                "Apakah Anda bisa menyebutkan nama dekan dan wakil dekan di FTMM?",
+                "Siapa yang berperan sebagai kepala di FTMM?",
+                "Dekan FTMM itu siapa sih?",
+                "Siapa itu bu Nimah?",
+                "Siapa itu Prof Retna?",
+                "Siapa itu Pak Imron?",
+                "Siapa wadek yang mengurus keuangan?",
+                "Siapa wadek yang mengurus kemahasiswaan?"
+            ],
+            "responses": [
+                "FTMM dipimpin oleh seorang dekan dan 3 wakil dekan. Dekan FTMM adalah Prof. Dr. Dwi Setyawan,S.Si., M.Si., Apt didampingi oleh Wakil Dekan I Prof. Dr. Nimatuzahroh, Dra., Wakil Dekan II Dr. Imron Mawardi, S.P., M.Si, dan Wakil Dekan III Prof. Dr. Retna Apsari, M. Si."
+            ]
+        },
+        {
+            "tag": "Pinjam Alat Lab",
+            "patterns": [
+                "Saya ingin pinjam alat yang tersedia di lab FTMM, bisakah?",
+                "Apakah bisa meminjam alat lab di FTMM?",
+                "Bagaimana mekanisme peminjaman alat lab di FTMM?",
+                "Bagaimana cara pinjam alat lab?",
+                "Boleh nggak pinjam alat lab?",
+                "Siapa yang harus saya hubungin kalau mau pinjam alat lab?",
+                "Mau pinjam alat di lab FTMM, gimana caranya ya?",
+                "Bisa nggak sih minjem alat lab di FTMM buat keperluan tugas?",
+                "Proses buat pinjem alat lab di FTMM itu kaya gimana sih?",
+                "Caranya pinjam alat di lab FTMM itu gimana ya? Perlu apa aja?",
+                "Boleh nggak ya minjem alat lab di FTMM?",
+                "Apa syarat pinjem alat lab di FTMM?",
+                "Kalau mau pinjem alat lab, harus ngomong sama siapa ya?",
+                "Aku perlu alat dari lab FTMM nih, langkah pertamanya apa ya?",
+                "Pengen pinjam alat lab nih, surat permohonannya harus ditujukan ke mana ya?",
+                "Tau nggak sih prosedur lengkap minjem alat di lab FTMM?",
+                "Kalau butuh alat dari lab FTMM buat riset, itu harus ngapain aja ya?",
+                "Surat pinjam alat lab itu ditujukan ke siapa?",
+                "Gimana cara pinjem alat lab?",
+                "Alat lab FTMM bisa dipinjem nggak?"
+            ],
+            "responses": [
+                "Peminjaman alat laboratorium dapat dilakukan dengan cara membawa surat dari Prodi/Fakultas/Univ asal berisi kebutuhan alat, durasi penggunaan, dan tujuan penggunaan. Surat ditujukan ke dekan FTMM lalu dikirim secara luring ke sekretariat FTMM di Gedung Kuliah Bersama lantai 10."
+            ]
+        },
+        {
+            "tag": "Prestasi",
+            "patterns": [
+                "Apakah mahasiswa FTMM berprestasi?",
+                "Apa saja prestasi FTMM?",
+                "Dimana bisa mencari prestasi FTMM?",
+                "Prestasi FTMM apa saja?",
+                "Sebutkan prestasi FTMM?",
+                "Apa prestasi FTMM yang terbaru?",
+                "Mahasiswa FTMM ada yang juara nggak sih?",
+                "FTMM punya prestasi apa aja ya?",
+                "Bisa nggak ya liat daftar prestasi FTMM di mana gitu?",
+                "Prestasi keren dari FTMM apa aja nih?",
+                "Kasih tau dong prestasi-prestasi yang udah FTMM raih?",
+                "Prestasi paling anyar dari FTMM itu apa ya?",
+                "FTMM tuh baru ya? Tapi udah dapet prestasi belum?",
+                "FTMM itu juaranya di bidang apa aja sih?",
+                "Gimana sih caranya tau prestasi terkini dari FTMM?",
+                "Prestasi bangga FTMM yang terbaru keren nggak?",
+                "FTMM itu sering menang kompetisi apa aja?",
+                "Di mana ya bisa liat daftar lengkap prestasi-prestasi yang udah FTMM dapetin?",
+                "FTMM punya prestasi apa aja nih sejauh ini?",
+                "Prestasi paling anyar dari FTMM itu apa ya?",
+                "Prestasi terupdate FTMM bisa diliat di mana ya?"
+            ],
+            "responses": [
+                "Meskipun FTMM merupakan fakultas termuda di UNAIR, FTMM punya segudang prestasi lho! Prestasi terbaru dari Mahasiswa FTMM adalah Tim EVOS SAGA yang memenangkan kategori Rancang Bangun Sepeda Motor Listrik, dan menempati peringkat pertama. Prestasi terbaru dapat dilihat melalui laman FTMM NEWS di https://ftmm.unair.ac.id/category/prestasi-mahasiswa/"
+            ]
+        },
+        {
+            "tag": "RN",
+            "patterns": [
+                "Apa itu rekayasa nanoteknologi?",
+                "Apa itu RN?",
+                "Apakah RN itu prodi baru?",
+                "Apa alasan rekayasa nanoteknologi itu unik?",
+                "Bidang ilmu apa saja yang dipelajari di rekayasa nanoteknologi?",
+                "Pelajaran apa yang didapat kalau masuk RN?",
+                "Matkul apa saja yang dipelajari oleh mahasiswa rekayasa nanoteknologi?",
+                "Apa visi rekayasa nanoteknologi?",
+                "Apa misi rekayasa nanoteknologi?",
+                "Bagaimana struktur kurikulum RN?",
+                "Apa prospek lulusan rekayasa nanoteknologi?",
+                "Lulusan rekayasa teknologi bisa jadi apa?",
+                "Apakah saya bisa langsung kerja setelah lulus dari rekayasa teknologi?",
+                "Apa saja bidang yang berkaitan dengan rekayasa nanoteknologi?",
+                "Apa yang kamu ketahui tentang RN?",
+                "RN itu apa sih?",
+                "Kasih tau RN itu apa dong",
+                "Kenapa harus masuk rekayasa nanoteknologi?",
+                "Masuk rekayasa nanoteknologi itu susah nggak?",
+                "Apakah menjadi mahasiswa RN itu sulit?"
+            ],
+            "responses": [
+                "Program Studi S-1 Rekayasa Nanoteknologi merupakan program studi di Indonesia yang relatif baru dan unik yang terfokus ke studi mengenai nanoteknologi. Di program studi ini, mahasiswa akan mempelajari tentang berbagai bidang ilmu nanoteknologi yang fundamental, yaitu Kimia, Fisika, Biologi, keteknikan, dan juga fabrikasi, yang termasuk di dalamnya desain dan aplikasi nanomaterial di bidang Kesehatan, industri, lingkungan, dll. Rekayasa Nanoteknologi memiliki beberapa kesempatan karir seperti menjadi : 1. Peneliti, 2. Entrepreneur, 3. Akademisi, 4. Tenaga Ahli/Manajer/Supervisior, 5. Konsultan. Informasi lebih lengkap dapat diakses melalui link berikut: https://ftmm.unair.ac.id/rekayasa-nanoteknologi-program-studi/"
+            ]
+        },
+        {
+            "tag": "Sejarah FTMM",
+            "patterns": [
+                "Bagaimana proses FTMM berdiri?",
+                "Bagaimana sejarah FTMM?",
+                "Jelaskan sejarah FTMM?",
+                "kapan FTMM berdiri?",
+                "kapan FTMM didirikan?",
+                "apa pilar FTMM?",
+                "kapan FTMM didirikan?",
+                "tahun berapa FTMM berdiri?",
+                "kenapa FTMM dibangun?",
+                "berapa jumlah mahasiswa FTMM?",
+                "Apa yang melatarbelakangi pendirian FTMM di Universitas Airlangga?",
+                "Berapa jumlah mahasiswa yang saat ini terdaftar di FTMM?",
+                "Untuk tujuan apa FTMM awalnya dibangun?",
+                "Apa yang menjadi landasan atau pilar FTMM?",
+                "Pada tahun berapa resmi FTMM didirikan?",
+                "Apa saja fakta sejarah penting dari FTMM?",
+                "Dapatkah Anda menceritakan tentang pendirian FTMM?",
+                "Bagaimana proses pendirian FTMM?",
+                "Bisa jelaskan proses pendirian FTMM?",
+                "Ada konsep atau filosofi apa di balik pendirian FTMM?",
+                "Bisa berikan garis besar sejarah FTMM?",
+                "Apa yang mendorong Universitas Airlangga untuk mendirikan FTMM?",
+                "Apa alasan utama dibangunnya FTMM di kampus ini?",
+                "Apa latar belakang dibentuknya FTMM?",
+                "kenapa ada FTMM?"
+            ],
+            "responses": [
+                "Fakultas Teknologi Maju dan Multidisiplin (FTMM), yang semula bernama Sekolah Teknologi Maju dan Multidisiplin, didirikan pada November 2019. FTMM hadir dan melengkapi 3 pilar utama Universitas Airlangga (social science, life science, dan health science) dengan pilar baru di bidang keteknikan (engineering). Mahasiswa angkatan pertama FTMM berjumlah kurang lebih 400 mahasiswa. Kami akan terus berusaha memberikan yang terbaik dalam fasilitas pendidikan, dan membuka kesempatan kepada mahasiswa kami untuk dapat berkontribusi pada kemajuan teknologi."
+            ]
+        },
+        {
+            "tag": "TE",
+            "patterns": [
+                "Apa itu elektro?",
+                "Apa itu teknik elektro?",
+                "Apa itu TE?",
+                "Apakah TE mempelajari listrik?",
+                "Apa saja spesialisasi yang ditawarkan dalam Program Studi Teknik Elektro?",
+                "Bagaimana prospek karir bagi lulusan Teknik Elektro?",
+                "Apa saja mata kuliah inti yang harus diambil oleh mahasiswa Teknik Elektro?",
+                "Apa matkul yang dipelajari anak elektro?",
+                "Bagaimana saya bisa mengakses sumber daya belajar tambahan untuk mendukung studi saya di Teknik Elektro?",
+                "Apa saja proyek atau penelitian terbaru yang dilakukan dalam bidang Teknik Elektro?",
+                "Dapatkah mahasiswa Teknik Elektro mengambil spesialisasi atau konsentrasi tertentu?",
+                "Apakah masuk elektro itu susah?",
+                "Apa syarat masuk elektro?",
+                "Apa prospek lulusan elektro?",
+                "Lulus dari teknik elektro bisa jadi apa?",
+                "Bagaimana karir seorang lulusan teknik elektro?",
+                "Apakah masuk teknik elektro susah?",
+                "Jelaskan tentang teknik elektro",
+                "Jelaskan tentang prospek lulusan teknik elektro",
+                "Jelaskan apa yang dipelajari oleh mahasiswa teknik elektro"
+            ],
+            "responses": [
+                "Program Studi S-1 Teknik Elektro Universitas Airlangga berfokus pada penerapkan pengetahuan keteknikan untuk mendapatkan pemahaman menyeluruh tentang prinsip-prinsip keteknikan. Dalam program studi ini, mahasiswa akan belajar mengenai pengetahuan inti (core knowledge) bidang teknik elektro termasuk rangkaian elektrik, sistem dan sinyal, sistem digital, elektromagnetik, dan elektronika. Selain itu mahasiswa juga akan belajar mengenai pengetahuan keluasan (breadth knowledge) yang mencakup sejumlah topik kerekayasaan pada bidang teknik ketenagalistrikan, sistem control, system telekomunikasi, elektronika dan sistem computer. Teknik Elektro memiliki beberapa kesempatan karir seperti menjadi : 1. Teknik Ketenagalistrikan, 2. Teknik Kendali, 3. Teknik Telekomunikasi, 4. Teknik Komputer, 5. Elektronika. Informasi lengkap dapat diakses melalui link berikut: https://ftmm.unair.ac.id/teknik-elektro-program-studi/"
+            ]
+        },
+        {
+            "tag": "TI",
+            "patterns": [
+                "Apa itu teknik industri?",
+                "Apa itu TI?",
+                "Apa yang dipelajari di teknik industri?",
+                "Mahasiswa TI dapat matkul apa aja?",
+                "Apa visi prodi teknik industri?",
+                "Apa misi prodi teknik industri?",
+                "Apa visi dan misi teknik industri?",
+                "Mahasiswa teknik industri dapat matkul apa aja sih?",
+                "Setelah lulus dari teknik industri bisa bekerja menjadi apa?",
+                "Apakah prospek lulusan teknik industri cerah?",
+                "Bidang pekerjaan apa yang bisa didapat anak TI?",
+                "Mahasiswa teknik industri dapat bekerja sebagai apa?",
+                "Dimana dapat mempelajari teknik industri?",
+                "Bagaimana struktur kurikulum teknik industri?",
+                "Apa yang dipelajari di Program Studi S-1 Teknik Industri dan dimana informasi lengkapnya dapat diakses?",
+                "Apa fokus utama dari Program Studi S-1 Teknik Industri?",
+                "Bidang apa saja yang akan dipelajari oleh mahasiswa dalam Program Studi Teknik Industri?",
+                "Bagaimana prospek karir lulusan Teknik Industri?",
+                "Berapa lama durasi studi untuk menyelesaikan Program S-1 Teknik Industri?",
+                "Apa tantangan terbesar yang dihadapi mahasiswa di Teknik Industri?"
+            ],
+            "responses": [
+                "Program Studi S-1 Teknik Industri merupakan program studi yang berfokus pada desain, perbaikan, dan implementasi sistem terintegrasi yang terdiri atas manusia, bahan baku, informasi, peralatan, dan energi. Di program studi ini, mahasiswa akan belajar mengenai berbagai bidang dalam ilmu Teknik Industri, antara lain Rekayasa Sistem, Faktor Manusia dan Ergonomi, serta Sistem Manufaktur. Informasi lengkap dapat diakses melalui link berikut: https://ftmm.unair.ac.id/teknik-industri-program-studi/"
+            ]
+        },
+        {
+            "tag": "TRKB",
+            "patterns": [
+                "Apa itu TRKB?",
+                "Apa itu teknik robotika?",
+                "Apa itu kecerdasan buatan?",
+                "Apa itu teknik robotika dan kecerdasan buatan?",
+                "Apakah mahasiswa TRKB membuat robot?",
+                "Apa saja yang dipelajari mahasiswa TRKB?",
+                "Mahasiswa TRKB belajar apa?",
+                "Matkul apa yang didapat mahasiswa teknik robotika dan kecerdasan buatan?",
+                "Apa visi dan misi prodi teknik robotika dan kecerdasan buatan?",
+                "Apa visi program studi teknik robotika dan kecerdasan buatan?",
+                "Apa misi teknik robotika dan kecerdasan buatan?",
+                "Bagaimana struktur kurikulum teknik robotika dan kecerdasan buatan?",
+                "Kalau lulus dari TRKB bisa jadi apa aja?",
+                "Apa prospek lulusan teknik robotika dan kecerdasan buatan?",
+                "Robot hasil TRKB apa saja?",
+                "Apa yang harus dipersiapkan masuk TRKB?",
+                "Apa singkatan dari teknik robotika dan kecerdasan buatan?",
+                "Jelaskan apa itu TRKB!",
+                "Jelasin tentang teknik robotika dan kecerdasan buatan dong",
+                "Apa yang kamu tahu tentang teknik robotika dan kecerdasan buatan?"
+            ],
+            "responses": [
+                "Program Sarjana Teknik Robotika dan Kecerdasan Buatan berfokus pada pengembangan integrasi antara robotika dan kecerdasan buatan untuk menghasilkan sistem otonom yang dapat diterapkan di berbagai bidang. Mahasiswa yang terdaftar akan mempelajari ilmu-ilmu dasar (matematika dan fisika), ilmu komputer, mekatronik, elektronika, sistem kendali, sistem siber-fisik, desain robot, penerapan robotika, dan integrasi kecerdasan buatan dalam sistem robot. Teknik Robotika dan Kecerdasan Buatan memiliki beberapa kesempatan karir seperti menjadi : 1. Tenaga Ahli Robotika, 2. Tenaga Ahli Kecerdasan Buatan, 3. Ahli Otomasi Industri, 4. Tenaga Ahli/Manajer/Supervisior, 5. Konsultan. Informasi lengkap dapat diakses melalui link berikut: https://ftmm.unair.ac.id/teknik-robotika-dan-kecerdasan-buatan-program-studi/"
+            ]
+        },
+        {
+            "tag": "TSD",
+            "patterns": [
+                "Apa itu sains data?",
+                "Apa itu teknologi sains data?",
+                "Apa saja yang dipelajari di teknologi sains data?",
+                "Belajar apa aja sih di sains data?",
+                "Kalau mau masuk sains data harus pintar matematika?",
+                "Apa yang kamu tahu tentang sains data?",
+                "Apa visi dan misi prodi teknologi sains data?",
+                "Apa itu TSD?",
+                "Di sains data belajar apa aja sih sebenarnya?",
+                "Kalau lulus dari sains data bisa jadi apa?",
+                "Bagaimana prospek lulusan teknologi sains data?",
+                "Kalau habis lulus teknologi sains data bisa langsung kerja nggak?",
+                "Di sains data belajar big data nggak?",
+                "Bidang apa aja yang sesuai dengan sains data?",
+                "Pelajaran yang didapat pas jadi mahasiswa TSD itu apa?",
+                "Jadi mahasiswa teknik sain data itu susah nggak?",
+                "Apa itu teknik sains data?",
+                "Sains data unair kalau lulus dapet gelar apa?",
+                "Apa visi TSD?",
+                "Apa misi TSD?"
+            ],
+            "responses": [
+                "Sains data adalah suatu disiplin ilmu yang mengintegrasikan ilmu matematika, statistika, dan komputer yang mempelajari tentang data skala besar atau disebut dengan Big Data. Data besar tersebut disebabkan oleh adanya peningkatan secara jumlah, variasi, dan kecepatan yang dihasilkan oleh teknologi terkini yang semakin berkembang. Untuk dapat mengolah data besar tersebut, dibutuhkan keahlian sains data sehingga menghasilkan wawasan dan informasi yang bermanfaat. Keahlian ini semakin banyak digunakan di berbagai bidang, seperti di bidang kesehatan, sosial dan komunikasi, industri, serta bisnis dan finansial. Teknologi Sains Data memiliki beberapa kesempatan karir seperti menjadi : 1. Konsultan, 2. Entrepreneur, 3. Data Analis, 4. Ilmuwan Data, 5. Akademisi. Informasi lengkap dapat diakses melalui laman berikut: https://ftmm.unair.ac.id/teknologi-sains-data-program-studi/"
+            ]
+        },
+        {
+            "tag": "UKT",
+            "patterns": [
+                "Berapa UKT di FTMM?",
+                "Berapa biaya uang kuliah tunggal di FTMM?",
+                "UKT FTMM berapa?",
+                "UKT FTMM mahal nggak?",
+                "Apakah UKT FTMM lebih dari 8 juta?",
+                "Berapa UKT paling mahal di FTMM?",
+                "Ada berapa golongan UKT di FTMM?",
+                "Berapa SPP FTMM?",
+                "Berapa biaya kuliah di FTMM?",
+                "Berapa UKT FTMM?",
+                "Apakah UKT FTMM mahal?",
+                "Bisakah Anda informasikan kisaran biaya pendidikan di FTMM?",
+                "Apakah biaya UKT di FTMM tergolong tinggi?",
+                "Berapa estimasi biaya keseluruhan kuliah di FTMM?",
+                "Dapatkah Anda rincikan struktur biaya pendidikan di FTMM?",
+                "Berapa kategori UKT yang ada di FTMM?",
+                "Berapa biaya UKT teratas di FTMM?",
+                "Apakah benar bahwa UKT di FTMM ada yang melebihi 8 juta?",
+                "Minta informasi terkini tentang besaran UKT di FTMM dong?",
+                "Berapa tarif UKT yang ditetapkan oleh FTMM?",
+                "Sebutkan biaya kuliah FTMM!"
+            ],
+            "responses": [
+                "Biaya UKT FTMM dapat dicek pada laman ppmb.unair.ac.id"
+            ]
+        },
+        {
+            "tag": "Vendor LAB",
+            "patterns": [
+                "Saya vendor LAB, siapa yang bisa saya hubungi?",
+                "Saya ingin mempromosikan alat-alat LAB dengan mengirim katalog, siapa yang bisa saya hubungi?",
+                "Apakah saya bisa mengirimkan katalog alat-alat Lab ke dosen?",
+                "Saya mau promosi alat lab",
+                "Dimana saya bisa promosi alat lab?",
+                "Siapa yanh dapat saya hubungi untuk alat lab?",
+                "Apakah FTMM memerlukan alat lab?",
+                "Apakah FTMM membutuhkan penyediaan peralatan laboratorium?",
+                "Dengan siapa saya bisa terhubung terkait kebutuhan peralatan laboratorium?",
+                "Ingin melakukan promosi peralatan laboratorium, apa yang harus saya lakukan?",
+                "Bisakah saya mengirim brosur peralatan laboratorium kepada para pengajar?",
+                "Saya berkeinginan untuk menawarkan berbagai peralatan laboratorium melalui katalog. Dengan siapa saya dapat berkoordinasi?",
+                "Sebagai penyedia peralatan laboratorium, dengan siapa sebaiknya saya berbicara?",
+                "Saya tertarik untuk menawarkan katalog peralatan laboratorium, kepada siapa saya harus menghubungi?",
+                "Saya vendor LAB",
+                "Saya vendor laboratorium",
+                "Saya distributor alat laboratorium",
+                "Saya merupakan distributor alat laboratorium, dapatkah saya mengetahui kontak yang tepat untuk dihubungi?",
+                "Dapatkah saya mengirim brosur katalog alat laboratorium ke staf pengajar?",
+                "Mohon informasi kontak yang bertanggung jawab atas pembelian alat laboratorium?",
+                "Apakah FTMM butuh alat lab baru?"
+            ],
+            "responses": [
+                "Silahkan email ke dosen program studi yang dimaksud, email tertera di website"
+            ]
+        },
+        {
+            "tag": "Visi dan Misi FTMM",
+            "patterns": [
+                "Apa visi FTMM?",
+                "Apa misi FTMM?",
+                "Kamu tau nggak visi FTMM itu apa?",
+                "Kamu tahu nggak misi FTMM itu apa?",
+                "Kamu bisa jelasin visi dari FTMM nggak?",
+                "Kamu bisa jelasin misi FTMM nggak?",
+                "Aku penasaran dengan misi fakultas ini, bisa kasih tau nggak?",
+                "Apa tujuan utama FTMM?",
+                "Apa saja misi yang diusung oleh FTMM?",
+                "Apa fokus utama FTMM?",
+                "Bagaimana visi FTMM dapat diwujudkan?",
+                "Sebutkan visi FTMM!",
+                "Sebutkan misi FTMM!",
+                "Bisa kasih info lengkap tentang visi dan misi FTMM nggak?",
+                "Apa saja nilai yang dijunjung oleh FTMM?",
+                "Apa dorongan utama FTMM?",
+                "Apa yang ingin dicapai FTMM dalam 5 tahun kedepan?",
+                "Apa target FTMM?",
+                "Apa yang ingin diwujudkan oleh FTMM?",
+                "Apakah FTMM mempunyai visi?",
+                "Apakah FTMM mempunyai misi?"
+            ],
+            "responses": [
+                "Visi FTMM: Fakultas teknik unggul dan bermartabat yang berperan aktif dalam pengembangan, penerapan dan kolaborasi ilmu pengetahuan dan teknik yang maju, serta berintegritas tinggi, berbudaya, berasaskan Pancasila dan berdasarkan moral agama untuk menyelesaikan persoalan bangsa.\nMisi FTMM\n1. Menyelenggarakan pendidikan sarjana yang berwawasan internasional untuk menghasilkan lulusan bermoral agama dan mumpuni di bidang ilmu pengetahuan dan teknik yang berdaya guna dan mengabdi untuk kepentingan bangsa.\n2. Menumbuhkan dan mengembangkan kreativitas, melaksanakan penelitian dan pengabdian kepada masyarakat yang berlandaskan budaya bangsa.\n3. Mengembangkan kerjasama yang luas dengan lembaga di dalam dan di luar negeri."
+            ]
+        }
+    ]
+}
